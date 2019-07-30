@@ -1,0 +1,17 @@
+.header {
+    .support-header {
+        span {
+            font-size: 13px;
+        }
+        span:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+    .cart-header {
+        line-height: 35px;
+    }
+    .search-header {
+        min-height: 38px;
+    }
+}
