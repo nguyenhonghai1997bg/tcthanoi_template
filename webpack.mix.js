@@ -17,4 +17,5 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
     .sass('resources/sass/customer/header.scss', 'public/css/customer/header.css')
     .sass('resources/sass/customer/navbar.scss', 'public/css/customer/navbar.css')
+    .sass('resources/sass/customer/footer.scss', 'css/customer/footer.css')
     .sass('resources/sass/index.scss', 'public/css/index.css');
