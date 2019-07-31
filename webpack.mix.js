@@ -12,4 +12,9 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .js('node_modules/owl.carousel2/dist/owl.carousel.min.js', 'public/js/libraries/owl.carousel.min.js')
+    .copy('node_modules/owl.carousel2/dist/assets/owl.carousel.min.css', 'public/css/libraries/owl.carousel.min.css')
+    .sass('resources/sass/app.scss', 'public/css')
+    .sass('resources/sass/customer/header.scss', 'public/css/customer/header.css')
+    .sass('resources/sass/customer/navbar.scss', 'public/css/customer/navbar.css')
+    .sass('resources/sass/index.scss', 'public/css/index.css');
