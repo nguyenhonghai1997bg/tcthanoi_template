@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ asset('css/customer/footer.css') }}">
 
-<div class="footer pt-4">
+<div class="footer pt-5">
     <div class="info">
         <div class="container">
             <div class="col-md-3 col-sm-6 col-xs-12 float-left">

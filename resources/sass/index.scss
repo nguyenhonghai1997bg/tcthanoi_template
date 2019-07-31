@@ -112,27 +112,34 @@
     .products {
         margin-bottom: 80px;
         .product {
-            padding: 5px;
+            padding: 8px;
             .image {
                 max-width: 100%;
                 text-align: center;
                 margin-bottom: 10px;
                 img {
                     max-width: 100%;
+                    max-height: 100%;
                 }
             }
             .item {
                 border: 1px #e8e8e8 solid;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                border-radius: 10px;
                 padding: 5px;
                 .product-content {
+                    padding-bottom: 5px;
                     text-align: center;
                     .title {
-                        word-break: break-word;
-                        font-size: 16px;
-                        color: #000;
-                        font-family: 'Roboto', sans-serif;
-                        line-height: 18px;
-                        font-weight: bold;
+                        a {
+                            word-break: break-word;
+                            font-size: 16px;
+                            color: #000;
+                            font-family: 'Roboto', sans-serif;
+                            line-height: 18px;
+                            font-weight: bold;
+                        }
                     }
                     .price {
                         font-size: 20px;

@@ -1,3 +1,5 @@
+@import '../variables';
+
 .header {
     .support-header {
         span {
@@ -10,7 +12,39 @@
     }
     .cart-header {
         line-height: 35px;
+        position: relative !important;
+        a {
+            color: black;
+        };
+
+        .header-cart-content {
+            display: none;
+            width: 250px;
+            position: absolute;
+            top: 37px;
+            right: 50px;
+            z-index: 1000;
+            border: 2px solid $color-border-base;
+            border-bottom: none;
+            background-color: #b3e8ca;
+            .cart-header {
+                border-bottom: 2px solid $color-border-base;
+                line-height: 20px;
+                padding: 5px 0px;
+            }
+            .cart-content {
+                border-bottom: 2px solid $color-border-base;
+                .remove-item-cart:hover {
+                    cursor: pointer;
+                }
+            }
+        }
     }
+
+    .cart-header:hover .header-cart-content{
+        display: block;
+    }
+
     .search-header {
         min-height: 38px;
     }

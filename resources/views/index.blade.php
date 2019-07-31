@@ -47,7 +47,7 @@
                         <img src="https://lh4.googleusercontent.com/-sJTpaNUY3X8/WWyC7MM3-bI/AAAAAAAABPg/T7zk0tC1QvEVg0zBY-iVGgBMGKgnUl7yQCLcBGAs/s1600/sp9.jpg">
                     </div>
                     <div class="product-content">
-                        <h3 class="title mt-4">Vitamin A Oil</h3>
+                        <h3 class="title mt-4"><a href="#">Vitamin A Oil</a></h3>
                         <div class="price">490,000₫</div>
                         <div class="add-to-cart-btn mt-2">
                             <div class="btn btn-success">Mua hàng</div>
@@ -75,7 +75,7 @@
                             <img src="https://lh4.googleusercontent.com/-sJTpaNUY3X8/WWyC7MM3-bI/AAAAAAAABPg/T7zk0tC1QvEVg0zBY-iVGgBMGKgnUl7yQCLcBGAs/s1600/sp9.jpg">
                         </div>
                         <div class="product-content">
-                            <h3 class="title mt-4">Vitamin A Oil</h3>
+                            <h3 class="title mt-4"><a href="#">Vitamin A Oil</a></h3>
                             <div class="price">490,000₫</div>
                             <div class="add-to-cart-btn mt-2">
                                 <div class="btn btn-success">Mua hàng</div>
@@ -103,7 +103,7 @@
                             <img src="https://lh4.googleusercontent.com/-sJTpaNUY3X8/WWyC7MM3-bI/AAAAAAAABPg/T7zk0tC1QvEVg0zBY-iVGgBMGKgnUl7yQCLcBGAs/s1600/sp9.jpg">
                         </div>
                         <div class="product-content">
-                            <h3 class="title mt-4">Vitamin A Oil</h3>
+                            <h3 class="title mt-4"><a href="#">Vitamin A Oil</a></h3>
                             <div class="price">490,000₫</div>
                             <div class="add-to-cart-btn mt-2">
                                 <div class="btn btn-success">Mua hàng</div>
