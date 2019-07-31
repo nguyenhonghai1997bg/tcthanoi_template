@@ -22,9 +22,9 @@
         @include('customer/navbar')
         <div class="container">
             @yield('content')
-            @include('customer/footer')
-            @yield('script')
         </div>
+        @include('customer/footer')
+        @yield('script')
     </div>
 </body>
 </html>

@@ -31,13 +31,14 @@
 
     {{--content--}}
     <div class="content mt-5">
+
+        {{--box product--}}
         <div class="box-products">
             <h2 class="title-box">
-                <span>PHÂN BÓ LÁ</span>
+                <span>PHÂN BÓN LÁ</span>
             </h2>
             <a href="#" class="view-all">Xem tất cả</a>
         </div>
-
         <div class="products">
             @for($i = 1; $i < 10; $i++)
             <div class="product col-lg-3 col-md-3 col-sm-6 col-xs-6 float-left">
@@ -55,7 +56,65 @@
                 </div>
             </div>
             @endfor
+            <div class="clearfix"></div>
         </div>
+        {{--end box products--}}
+
+        {{--box product--}}
+        <div class="box-products mt-4">
+            <h2 class="title-box">
+                <span>PHÂN BÓN LÁ</span>
+            </h2>
+            <a href="#" class="view-all">Xem tất cả</a>
+        </div>
+        <div class="products">
+            @for($i = 1; $i < 10; $i++)
+                <div class="product col-lg-3 col-md-3 col-sm-6 col-xs-6 float-left">
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://lh4.googleusercontent.com/-sJTpaNUY3X8/WWyC7MM3-bI/AAAAAAAABPg/T7zk0tC1QvEVg0zBY-iVGgBMGKgnUl7yQCLcBGAs/s1600/sp9.jpg">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title mt-4">Vitamin A Oil</h3>
+                            <div class="price">490,000₫</div>
+                            <div class="add-to-cart-btn mt-2">
+                                <div class="btn btn-success">Mua hàng</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endfor
+            <div class="clearfix"></div>
+        </div>
+        {{--end box products--}}
+
+        {{--box product--}}
+        <div class="box-products mt-4">
+            <h2 class="title-box">
+                <span>THUỐC TRỪ NẤM BỆNH</span>
+            </h2>
+            <a href="#" class="view-all">Xem tất cả</a>
+        </div>
+        <div class="products">
+            @for($i = 1; $i < 10; $i++)
+                <div class="product col-lg-3 col-md-3 col-sm-6 col-xs-6 float-left">
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://lh4.googleusercontent.com/-sJTpaNUY3X8/WWyC7MM3-bI/AAAAAAAABPg/T7zk0tC1QvEVg0zBY-iVGgBMGKgnUl7yQCLcBGAs/s1600/sp9.jpg">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="title mt-4">Vitamin A Oil</h3>
+                            <div class="price">490,000₫</div>
+                            <div class="add-to-cart-btn mt-2">
+                                <div class="btn btn-success">Mua hàng</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endfor
+            <div class="clearfix"></div>
+        </div>
+        {{--end box products--}}
     </div>
 @endsection
 
