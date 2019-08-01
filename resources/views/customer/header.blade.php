@@ -3,7 +3,7 @@
 
 <div class="header">
     <div class="col-md-3 float-left">
-        <a href="{{ route('home') }}"><img src="{{ asset('storage/images/logo.png') }}"></a>
+        <a href="{{ route('home') }}"><img src="{{ asset('storage/images/logo.png') }}" width="100%"></a>
     </div>
     <div class="col-md-5 float-left mt-4 mr-4">
         <div class="input-group">
