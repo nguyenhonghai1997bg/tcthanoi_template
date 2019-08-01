@@ -13,4 +13,8 @@
 
 Route::get('/', function () {
     return view('index');
+})->name('home');
+
+Route::get('/detail', function () {
+    return view('detail_product');
 });

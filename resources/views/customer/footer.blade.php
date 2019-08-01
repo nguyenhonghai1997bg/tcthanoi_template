@@ -49,7 +49,7 @@
                 <div class="thong-ke">
                     <div class="mt-2"><i class="fa fa-user-circle-o mr-2" aria-hidden="true"></i>Đang truy cập: 12345</div>
                     <div class="mt-2"><i class="fa fa-clock-o mr-2" aria-hidden="true"></i>Hôm nay: 12345</div>
-                    <div class="mt-2"><i class="fa fa-globe mr-2" aria-hidden="true"></i>Tổng số lượt truy cập: 12345</div>
+                    <div class="mt-2"><i class="fa fa-globe mr-2" aria-hidden="true"></i>Tổng số: 12345</div>
                 </div>
             </div>
             <div class="clearfix"></div>

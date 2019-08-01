@@ -23,6 +23,7 @@
         <div class="container">
             @yield('content')
         </div>
+        <div class="mt-5"></div>
         @include('customer/footer')
         @yield('script')
     </div>

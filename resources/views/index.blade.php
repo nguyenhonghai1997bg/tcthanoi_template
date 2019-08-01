@@ -1,8 +1,12 @@
 @extends('base')
+
 @section('style')
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
     <link rel="stylesheet" href="{{ asset('css/libraries/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/customer/categories_list.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/customer/products_list.css') }}">
 @endsection
+
 @section('content')
     <div class="slide-show">
         <div class="col-md-3 float-left">
@@ -47,7 +51,7 @@
                         <img src="https://lh4.googleusercontent.com/-sJTpaNUY3X8/WWyC7MM3-bI/AAAAAAAABPg/T7zk0tC1QvEVg0zBY-iVGgBMGKgnUl7yQCLcBGAs/s1600/sp9.jpg">
                     </div>
                     <div class="product-content">
-                        <h3 class="title mt-4"><a href="#">Vitamin A Oil</a></h3>
+                        <h3 class="title mt-4 text-truncate"><a href="#">Vitamin A Oil</a></h3>
                         <div class="price">490,000₫</div>
                         <div class="add-to-cart-btn mt-2">
                             <div class="btn btn-success">Mua hàng</div>
@@ -75,7 +79,7 @@
                             <img src="https://lh4.googleusercontent.com/-sJTpaNUY3X8/WWyC7MM3-bI/AAAAAAAABPg/T7zk0tC1QvEVg0zBY-iVGgBMGKgnUl7yQCLcBGAs/s1600/sp9.jpg">
                         </div>
                         <div class="product-content">
-                            <h3 class="title mt-4"><a href="#">Vitamin A Oil</a></h3>
+                            <h3 class="title mt-4 text-truncate"><a href="#">Vitamin A Oil Vitamin A Oil Vitamin A Oil</a></h3>
                             <div class="price">490,000₫</div>
                             <div class="add-to-cart-btn mt-2">
                                 <div class="btn btn-success">Mua hàng</div>
@@ -103,7 +107,7 @@
                             <img src="https://lh4.googleusercontent.com/-sJTpaNUY3X8/WWyC7MM3-bI/AAAAAAAABPg/T7zk0tC1QvEVg0zBY-iVGgBMGKgnUl7yQCLcBGAs/s1600/sp9.jpg">
                         </div>
                         <div class="product-content">
-                            <h3 class="title mt-4"><a href="#">Vitamin A Oil</a></h3>
+                            <h3 class="title mt-4 text-truncate"><a href="#">Vitamin A Oil</a></h3>
                             <div class="price">490,000₫</div>
                             <div class="add-to-cart-btn mt-2">
                                 <div class="btn btn-success">Mua hàng</div>

@@ -10,8 +10,7 @@
             cursor: pointer;
         }
     }
-    .cart-header {
-        line-height: 35px;
+    .header-cart {
         position: relative !important;
         a {
             color: black;
@@ -38,10 +37,18 @@
                     cursor: pointer;
                 }
             }
+
+            .cart-footer {
+                padding: 5px;
+                .amount {
+                    font-weight: bold !important;
+                    font-size: 15px;
+                }
+            }
         }
     }
 
-    .cart-header:hover .header-cart-content{
+    .header-cart:hover .header-cart-content{
         display: block;
     }
 
